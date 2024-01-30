@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(184, 245, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 58, 14);
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(14, 58, 14);
+}
+
+.panel {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 3%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ptop {
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgb(2, 83, 2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* border: 2px solid red; */
+}
+
+.box {
+    color: rgb(51, 111, 56);
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pbtm {
+    width: 100%;
+    display: flex;
+    /* height: calc(100%-100px); */
+    padding: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bubble {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(2, 83, 2);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: rgb(1, 43, 1);
+}

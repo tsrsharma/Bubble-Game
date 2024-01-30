@@ -1,0 +1,24 @@
+@media (max-width:500px) {
+    .name{
+        font-size: 30px;
+    }
+    .ptop{
+        height: 80px;
+    }
+    .element{
+        gap: 8px;
+        font-size:15px ;
+    }
+    .box{
+    padding: 5px 12px;
+    font-size: 18px;
+    }
+    .pbtm{
+        gap: 8px;
+        padding: 7px;
+    }
+    .bubble {
+        width: 35px;
+        height: 35px;
+    }
+}
